@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+img{
+  width: 90%;
+}
+
+.header, .footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 15px;
+  text-align: center
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 50%;
+}
+
+.sidebar{
+  width: 25%;
+  float: right;
+  background-color: red;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Parma Autobody</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Previous Work</li>
+      <li>Mission Statement</li>
+      <li>Schedule Appointment</li>
+      <li>Specials</li>
+      <li>About Us</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1></h1><img src="images/group_photo.jpg" alt="Group Photo">
+    <p>Chania is the capital of the Chania region on the island of Crete. 
+    The city can be divided in two parts, the old town and the modern city.</p>
+
+    <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
+  </div>
+  <div class="column sidebar">
+    <p>325 Ridge Road<br> Parma, OH 44130<br>216-555-8741
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>&copy;Parma Autobody 2019</p>
+</div>
+
+</body>
+</html>
